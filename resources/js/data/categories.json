@@ -1,0 +1,33 @@
+{
+    "categories": [
+        {"id":1, "name":"Hrana i piće", "subs":["Žitarice","Voće","Povrće","Meso i mesne prerađevine","Mleko i mlečne prerađevine","Riba i riblje prerađevine","Med","Voda i sokovi","Alkoholna pića","Gotovi proizvodi","Zimnice","Jaja","Masti i ulja","Začini","Kompoti","Ostalo"]},
+        {"id":2, "name":"Nekretnine", "subs":["Kuće","Stanovi","Garaže","Vikendice","Salaši","Poljoprivredna zemljišta","Građevinska zemljišta"]},
+        {"id":3, "name":"Sve za Kuću", "subs":["Nameštaj Dnevna soba","Nameštaj Spavaća Soba","Nameštaj Kupatilo","Nameštaj Kuhinja","Nameštaj Razno","Tepisi, zavese i krpare","Kućna Rasveta","Kućne Dekoracije","Kućni tekstil i posteljina","Organizacija i skladištenje","Kupatilska oprema","Kuhinjska oprema, pribor i posuđe","Kućna pomagala","Sve za kuću - Ostalo"]},
+        {"id":4, "name":"Bašta i Dvorište", "subs":["Baštenski nameštaj","Alati za baštu","Mašine za baštu","Semena, sadnice i lukovice","Dvorišna Dekoracija i rasveta","Oprema za Grilovanje i Kuvanje","Bazeni i oprema","Suncobrani","Cveće i saksije","Zemlja i baštenska đubriva","Ograde","Ostalo"]},
+        {"id":5, "name":"Motorna Vozila i Autoprikolice", "subs":["Automobili","Automobili Delovi","Automobili Oprema","Motocikli","Motocikli Delovi","Motocikli Oprema","Čamci","Čamci Delovi","Čamci Oprema","Auto prikolice","Auto prikolice Delovi","Kamioni","Kamioni Delovi","Kamioni Oprema","Kamionske Prikolice","Ostalo","Ostalo Delovi","Ostalo Oprema"]},
+        {"id":6, "name":"Bicikli i Trotineti", "subs":["Bicikli","Bicikli oprema","Bicikli Delovi","Električni bicikli","Električni bicikli Oprema","Elektični bicikli Delovi","Trotineti","Električni trotineti","Električni trotineti Oprema","Električni trotineti","Delovi razno","Hoverboard","Ostalo"]},
+        {"id":7, "name":"Poljoprivredne Mašine i priključci", "subs":["Kombajni","Kombajni Oprema","Kombajni Delovi","Kombajni Prikljičci","Traktori","Traktori Oprema","Traktori Delovi","Prikolice i poluprikolice","Sejačice","Plugovi","Spremači","Tanjirače","Prskalice","Balirke","Kosilice","Ostalo Priključci za traktor","Motokultivatori","Motokultivatori Delovi","Freze","Priključci za freze","Freze Delovi","Ostalo Mašine","Ostalo Delovi","Ostalo Priključci","Ostalo Oprema"]},
+        {"id":8, "name":"Radne Mašine i priključci", "subs":["Bageri i mini bageri","Telehenderi","Buldožderi","Platforme i podizne korpe","Dizalice","Prikolice","Priključci za radne mašine","Ostalo"]},
+        {"id":9, "name":"Alati i zanati", "subs":["Ručni Alati","Električni Alati","Aku Alati","Pneumatski Alati","Zavarivački Alati i Oprema","Stolarski Alati i Oprema","Tesarski Alati i Oprema","Električarski Alati i Oprema","Merni Alati i Oprema","Vodoinstalaterski Alati i Oprema","Bravaski Alati i Oprema","Molerski Alati i Oprema","Gipsarski Alati i Oprema","Zidarski Alati i Oprema","Keramičarski Alati i Oprema","Mehaničarski Alati i Oprema","Limarski Alati i Oprema","HTZ Oprema i Odeća","Mašine za radionicu","Oprema za radionicu","Ostalo - Alati i Oprema"]},
+        {"id":10, "name":"Računari, komponente i periferije", "subs":["Desktop računari","Grafičke kartice","RAM memorije","Matične ploče","Hard Diskovi HDD","Solid State Diskovi SSD","Procesori","Monitori","Miševi i tastature","Laptop računari","Punjači","Laptop komponente","USB Memorije","Eksteri HDD/SSD","Ostale periferije","Gedžeti","Ostalo"]},
+        {"id":11, "name":"Mobilni telefoni i Tableti", "subs":["Apple","Samsung","Sony","Sony Ericsson","Blackberry","LG","Xiaomi","OnePlus","Huawei","Honor","Ulefone","Nokia","Google Pixel","Oppo","Vivo","Motorola","Ostali Brendovi","Delovi za Mobilne telefone i tablete","Eksterne baterije","Ostalo"]},
+        {"id":12, "name":"Mali kućni aparati", "subs":["Mikrotalasne","Blenderi","Sokovnici","Kafe aparati","Mikseri","Štapni mikseri","Mašinice i brijači","Pegle","Ventilatori","Ostalo"]},
+        {"id":13, "name":"Bela tehnika", "subs":["Frižideri","Zamrzivači","Usisivači","Bojleri","Mašine za veš","Mašine za suđe","Mašine za sušenje","Grejna tela","Šporeti","Aspiratori","Ugradne ploče","Rešoi","Indukcione ploče","Ostalo"]},
+        {"id":14, "name":"Životinje, hrana, oprema", "subs":["Kokoške","Patke","Guske","Ćurke","Ostale pernate životinje","Krave, bikovi i junad","Ovce, Ovnovi i jagnjad","Koze, Jarci i jarići","Konji, kobile i ždrebad","Svinje i prasići","Ostalo blago","Psi","Mačke","Ribice","Kućni ljubimci","Oprema za kućne ljubimce","Hrana za životinje","Kavezi i Kućice","Inkubatori","Ostala oprema"]},
+        {"id":15, "name":"Usluge", "subs":[]},
+        {"id":16, "name":"Odeća, obuća i aksesoari", "subs":["Muška garderoba","Muška Obuća","Muški aksesoari","Ženska Obuća","Ženska Odeća","Ženski Aksesoari","Dečija odeća","Dečija obuća","Dečiji aksesoari","Ostalo"]},
+        {"id":17, "name":"Sport i razonoda", "subs":["Fudbal","Košarka","Odbojka","Stoni tenis","Tenis","Bilijar","AirSoft","PaintBall","Roleri i rošule","Skijanje","Planinarenje","Kampovanje","Plivanje","Tramboline","Kucice za decu","Igračke","Kostimi","Plaža i more","Jahanje","Dronovi","Metal Detektori","Ostalo"]},
+        {"id":18, "name":"Kolekcionarstvo", "subs":["Numizmatika","Stripovi","Slike","Stare stvari","Modeli i makete","Sličice i albumi","Suveniri","Novine","Zastave","Tablice","Kristali i minerali","Dipolme, pehari i medalje","Ostalo"]},
+        {"id":19, "name":"Škola, knjige i sveske", "subs":["Torbe i rančevi","Peronice","Sveske","Školske knjige","Školska oprema","Bojenje","Lektire","Knjige i romani","Notesi","Hemijske olovke","Ostalo"]},
+        {"id":20, "name":"Ručni radovi", "subs":[]},
+        {"id":21, "name":"Pokloni", "subs":[]},
+        {"id":22, "name":"Sve Ostalo", "subs":[]}
+    ],
+    "meta": {
+        "1": "🍎", "2": "🏠", "3": "🛋️", "4": "🌿", "5": "🚗",
+        "6": "🚲", "7": "🚜", "8": "🏗️", "9": "🧰", "10": "💻",
+        "11": "📱", "12": "🍳", "13": "🧊", "14": "🐾", "15": "🛠️",
+        "16": "👕", "17": "⚽", "18": "🧿", "19": "📚", "20": "🧵",
+        "21": "🎁", "22": "✨"
+    }
+}

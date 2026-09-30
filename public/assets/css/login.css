@@ -1,0 +1,168 @@
+:root {
+    --theme_color: #bd4545;
+}
+
+.login-section {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-image: url("../img/login/loginbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Overlay */
+.login-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* background: rgba(2, 60, 70, 0.7); */
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.login-section .page-content {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.login-section .card {
+    width: 550px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.login-section .pageTitle {
+    font-size: 24px;
+    color: var(--main-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.login-section input::placeholder {
+    font-size: 14px !important;
+}
+
+.pagePera {
+    opacity: 0.8;
+    font-size: 14px;
+    color: var(--theme_color);
+}
+
+.demoCredential {
+    font-weight: 300 !important;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.loginButton {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: var(--theme_color);
+    border: 1px solid transparent;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.loginButton:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.smallBox {
+    width: 20px;
+    height: 1px;
+    background: #000;
+}
+
+.shotbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.shotbox,
+.socallogIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.socallogIcon .iconButton {
+    padding: 9px 22px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #000;
+    border-radius: 8px;
+}
+
+.socallogIcon .iconText {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.socallogIcon i {
+    font-size: 16px;
+}
+
+.passwordInput {
+    position: relative !important;
+}
+
+.eye {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 10px);
+    color: var(--theme_color);
+}
+
+.btn-outline-dark {
+    background-color: var(--theme_color);
+    border: 1px solid var(--theme_color);
+    color: #fff;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--theme_color);
+    border: 1px solid var(--theme_color);
+    color: #fff;
+}
+
+.login-section .form-control{
+    padding: 1rem 0.5rem;
+}
+
+@media (max-width: 580px) {
+    .login-section {
+        display: grid;
+        padding: 40px 0;
+    }
+    .login-section .card {
+        margin: auto;
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .login-section .card {
+        width: 340px;
+    }
+}

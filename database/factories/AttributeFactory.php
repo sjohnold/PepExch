@@ -1,0 +1,24 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Attribute;
+use App\Models\Category;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Attribute>
+ */
+class AttributeFactory extends Factory
+{
+    protected $model = Attribute::class;
+
+    public function definition(): array
+    {
+        return [
+            'name'        => fake()->unique()->words(2, true),
+            'category_id' => Category::factory(),
+            'parent_id'   => null,
+        ];
+    }
+}

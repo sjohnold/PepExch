@@ -1,0 +1,214 @@
+.rs-product-box-3{
+    flex-direction: row;
+}
+.rs-product-box-3 img{
+    width: 208px;
+    height: 136px;
+    border-radius: 8px 0 0 8px;
+}
+.rs-product-details-btn-3 {
+    flex: auto !important;
+    justify-content: center !important;
+    height: 40px;
+}
+.rs-product-details-btn-4 {
+    flex: auto !important;
+}
+
+.rs-product-btn-2 .rs-product-offer-btn{
+    flex: auto !important;
+}
+
+.rs-product-price-menu ul>li .rs-product-price-dropdown ul li a {
+    cursor: pointer;
+}
+
+.rs-header-main-menu nav ul li.active{
+    color: var(--tp-red-color);
+    border-bottom: 2px solid var(--tp-red-color);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #059669, #10b981) !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.35);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+.error-msg {
+    color: #dc2626;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* Modern Profile & Dashboard UI */
+.rs-profile-head {
+    background: white !important;
+    border: 1px solid #f1f5f9;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+    border-radius: 24px !important;
+    padding: 24px !important;
+}
+
+.rs-profile-title {
+    font-weight: 800 !important;
+    color: #1e293b !important;
+    font-size: 1.5rem !important;
+}
+
+.rs-profile-body, .rs-password-change-area {
+    background: white !important;
+    border-radius: 24px !important;
+    border: 1px solid #f1f5f9;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.04);
+    overflow: hidden;
+}
+
+.rs-profile-input-title, .rs-password-change-title {
+    font-size: 11px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #64748b !important;
+    font-weight: 800 !important;
+    margin-bottom: 8px !important;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="name"], textarea {
+    width: 100%;
+    padding: 12px 18px !important;
+    background: #f8fafc !important;
+    border: 2px solid #f1f5f9 !important;
+    border-radius: 14px !important;
+    font-size: 14px !important;
+    color: #334155 !important;
+    transition: all 0.2s !important;
+}
+
+input:focus {
+    border-color: #10b981 !important;
+    background: white !important;
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1) !important;
+    outline: none;
+}
+
+.rs-save-btn, .rs-btn {
+    background: linear-gradient(135deg, #059669, #10b981) !important;
+    color: white !important;
+    font-weight: 700 !important;
+    border-radius: 12px !important;
+    padding: 12px 24px !important;
+    border: none !important;
+    transition: all 0.3s !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.rs-save-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(16, 185, 129, 0.3);
+}
+
+/* Chat Offer Card */
+.chat-offer-card {
+    background: #fdfdfd;
+    border: 2px solid #ecfdf5;
+    border-radius: 18px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+}
+
+.chat-offer-title {
+    font-size: 13px;
+    font-weight: 800;
+    color: #064e3b;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-transform: uppercase;
+}
+
+.chat-offer-product {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed #e2e8f0;
+    margin-bottom: 12px;
+}
+
+.chat-offer-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    object-fit: cover;
+    background: #f1f5f9;
+}
+
+.chat-offer-items-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.chat-offer-label {
+    font-size: 10px;
+    font-weight: 800;
+    color: #94a3b8;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.chat-offer-tag {
+    background: #f0fdf4;
+    color: #166534;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.chat-offer-tag.received {
+    background: #eff6ff;
+    color: #1e40af;
+}
+
+.chat-offer-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.chat-offer-btn-view {
+    font-size: 11px;
+    font-weight: 700;
+    color: #10b981;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

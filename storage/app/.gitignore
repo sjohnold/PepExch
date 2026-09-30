@@ -1,0 +1,6 @@
+# Ignore everything in storage
+/storage/*
+
+# Except these folders
+!/storage/.gitignore
+!/storage/app/public/media/
